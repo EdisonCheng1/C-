@@ -25,7 +25,7 @@ class Queue
         Node *rear;
         int items;
         const int qsize;
-        //preemptive definition to prevent public copynig;
+        //preemptive definition to prevent public copying;
         Queue(const Queue &q): qsize(0) {  }
         Queue & operator=(const Queue & q) { return *this;}
     public:
